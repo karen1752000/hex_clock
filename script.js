@@ -22,7 +22,7 @@ function hexClock() {
     seconds = '0' + seconds;
   }
 
-  var clockStr = hours + ' : ' + minutes + ' . ' + seconds;
+  var clockStr = hours + ' : ' + minutes + ' : ' + seconds;
   var hexColorStr = '#' + hours + minutes + seconds;
 
   clock.textContent = clockStr;
